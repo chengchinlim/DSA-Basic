@@ -1,4 +1,5 @@
-package bfs
+import bfs.Vertex
+import dfs.Dfs
 
 fun main() {
     val v1 = Vertex(1)
@@ -23,7 +24,6 @@ fun main() {
 
     v7.addNeighbor(v4)
 
-//    Bfs.search(v1)
-//    println("Steps to find v7 start from v2 is ${Bfs.search(v2)}")
-    println("Steps to find v6 start from v2 is ${Bfs.search(v2)}")
+//    Dfs.search(v1)
+    Dfs.search(v2)
 }
